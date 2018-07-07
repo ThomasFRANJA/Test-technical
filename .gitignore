@@ -1,8 +1,8 @@
 public/css
 public/js
-public/assets
 metrics
 .vscode
+.DS_STORE
 
 # Logs
 logs
