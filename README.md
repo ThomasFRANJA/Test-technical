@@ -4,7 +4,7 @@ To use this starter, you must install gulp as a global NPM package.
 I recommend using Yarn as it has a better dependency lock handling.
 
 npm install -g gulp
-# OR
+#OR
 yarn global add gulp
 
 
@@ -12,4 +12,5 @@ yarn global add gulp
 
 * SASS
 * BEM convention
+* Flexboxgrid
 * Comments code
