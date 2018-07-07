@@ -8,7 +8,7 @@ yarn
 I recommend using Yarn as it has a better dependency lock handling.
 
 
-#How to start a project
+# How to start a project
 * gulp for launch the project after the dependencies installed
 
 
