@@ -1,0 +1,48 @@
+// Début section country //
+.country {
+  font-family: $globalFonts;
+  padding: 80px 0;
+
+  // Début div country information //
+  &-information {
+    &__title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    &__description {
+      font-weight: lighter;
+      line-height: 1.5;
+      padding-top: 10px;
+    }
+  }
+  // Fin div country information //
+
+  // Début list ul country  //
+  &-list {
+    margin-top: 32px;
+
+    &__link {
+      align-items: center;
+      //  Couleur border rappelée par une variable définie dans variables.scss //
+      border-bottom: 1px solid $borderSecondColor;
+      color: $textColor;
+      display: flex;
+      font-weight: bold;
+      padding: 12px 0;
+      text-decoration: none;
+    }
+
+    &__title {
+      margin-left: 0;
+      padding-left: 16px;
+    }
+
+    &__img {
+      height: 32px;
+      width: 32px;
+    }
+  }
+  // Fin list ul country  //
+}
+// Fin section country //

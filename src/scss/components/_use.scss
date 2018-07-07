@@ -1,0 +1,45 @@
+// Début section use //
+.use {
+  //  Typographie du text rappelée par une variable définie dans variables.scss //
+  font-family: $globalFonts;
+  padding: 80px 0;
+
+  // Début div use information  //
+  &-information {
+    &__title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    &__description {
+      font-weight: lighter; 
+      line-height: 1.5;
+      padding-top: 10px;
+    }
+  }
+  // Fin div use information  //
+
+
+  // Début use list ul //
+  &-list {
+    margin-top: 32px;
+
+    &__link {
+      align-items: center;
+      //  Couleur border rappelée par une variable définie dans variables.scss //
+      border: 1px solid $borderColor;
+      border-radius: 6px;
+      color: $textColor;
+      display: flex;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    &__title {
+      margin-left: 0;
+      padding-left: 16px;
+    }
+  }
+  // Fin use list ul //
+}
+// Fin section use //

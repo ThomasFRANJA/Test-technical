@@ -1,0 +1,43 @@
+// Début header //
+.header {
+  // Couleur background rappelée par une variable définie dans variables.scss //
+  background-color: $headerColor;
+  border-bottom: $borderColor 1px solid;
+  padding: 30px 0;
+
+  &-logo {
+    height: 28px;
+    width: 167px;
+  }
+
+  // Début header nav //
+  &-nav {
+    &-list {
+      text-align: right;
+
+      &__item {
+        display: inline-block;
+        // Typographie rappelée par une variable définie dans variables.scss //
+        font-family: $globalFonts;
+        padding-right: 24px;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+
+      &__link {
+        // Couleur du texte rappelée par une variable définie dans variables.scss //
+        color: $textColor;
+        font-size: 14px;
+        text-decoration: none;
+
+        &:hover {
+          color: $mainBlue;
+        }
+      }
+    }
+  }
+  // Fin header nav //
+}
+// Fin header //

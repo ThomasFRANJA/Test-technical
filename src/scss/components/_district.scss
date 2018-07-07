@@ -1,0 +1,78 @@
+// Début section district //
+.district {
+  // Typographie rappelée par une variable définie dans variables.scss //
+  font-family: $globalFonts;
+  padding: 80px 0;
+
+  // Début div distict information //
+  &-information {
+    &__title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    &__description {
+      font-weight: lighter;
+      line-height: 1.5;
+      padding-bottom: 32px;
+      padding-top: 10px;
+    }
+  }
+  // Fin div distict information //
+
+  // Début list place ul distict  //
+  &-place {
+    padding: 16px 0;
+
+  &-list {
+      &__link {
+        // Couleur du texte rappelée par une variable définie dans variables.scss //
+        color: $textColor;
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        height: 100%;
+        margin: 0 auto;
+        text-decoration: none;
+
+        // Modifieur de class ci-dessous, convention BEM //
+        &--isRelative {
+          // Couleur background rappelée par une variable définie dans variables.scss //
+          background: $mainBlue;
+          box-sizing: border-box;
+          height: 220px;
+          padding: 16px;
+          position: relative;
+          width: 160px;
+        }
+      }
+
+      &__img {
+
+        // Modifieur de class ci-dessous, convention BEM //
+        &--isAbsolute {
+          bottom: 16px;
+          position: absolute;
+          right: 16px;
+        }
+      }
+
+      &__title {
+        padding-top: 8px;
+        text-align: left;
+
+        // Modifieur de class ci-dessous, convention BEM //
+        &--isWhite {
+          //  Couleur du text rappelée par une variable définie dans variables.scss //
+          color: $textFirstColor;
+          font-size: 16px;
+          font-weight: 500;
+          letter-spacing: .06rem;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+  // Fin list place ul distict  //
+}
+// Fin section district //
